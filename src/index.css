@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+html, body {
+  overflow-x: hidden;
+}
+a{
+  text-decoration: none;
+}
+button:hover{
+  background-color: rgba(255, 255, 255, 0.2) !important;
+}
+button:hover p{
+  font-size: 26px;
+  transition: 0.2s;
+}
+body{
+  background-color: #03356B;
+  font-family: "Anonymous Pro";
+  /* display:flex;
+  flex-direction: column;
+  gap: 220px; */
+}
+header{
+  margin: 90px 0 250px 80px;
+}
+.HeadBlock{
+  margin-top: 55px;
+}
+.HeadInfoBlock{
+  padding: 20px 0 0 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.Invisible{
+  position: absolute;
+  z-index: -1;
+  width: 100px;
+  height: 100px;
+  border-top: 1px solid #5EFFFF;
+  border-left: 1px solid #5EFFFF;
+}
+h1{
+  margin: 0;
+  font-size: 80px;
+  letter-spacing: 0.02em;
+  color: rgb(198, 198, 198, 0.4);
+  font-weight: 100;
+}
+p{
+  font-size: 24px;
+  letter-spacing: 4%;
+  line-height: 140%;
+  color: #5EFFFF;
+}
+h3{
+  font-size: 32px;
+  color: #5EFFFF;
+  letter-spacing: 0.1em;
+  font-weight: 100;
+  line-height: 140%;
+}
+span{
+  color: #fff;
+}
+
+.aboutMeSection{
+  width: 84%;
+  display: flex;
+  gap: 100px;
+  margin: 0 auto;
+  margin-bottom: 220px;
+}
+.aboutMeInfo{
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contatsBlock{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.widgets{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.widget{
+  width: 40px;
+}
+.myPhoto{
+  width: 380px;
+}
+.aboutBlocks{
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  width: 84%;
+  margin: 0 auto;
+  margin-bottom: 220px;
+}
+.aboutBlock{
+  border: 1px solid #5EFFFF;
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  text-align: center;
+}
+.aboutBlock:hover{
+  height: max-content;
+  background-color: rgba(163, 197, 241, 0.2);
+}
+.aboutBlock:hover .aboutWorkDescription{
+  display: block;
+  transition: all 0.5s ease-in;
+}
+.aboutBlock:hover .aboutWorkTitle{
+  border-bottom: 1px solid #5EFFFF;
+}
+
+.aboutWorkTitle{
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.aboutWorkDescription{
+  display: none;
+}
+
+.examplesSection{
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.examplesBlocks{
+  display: flex;
+  flex-direction: column;
+  /* gap: 50px; */
+}
+.exampleImage{
+  box-shadow: 16px 24px rgb(94, 255, 255, 0.2);
+}
+
+.exampleBlock{
+  display: flex;
+  gap: 60px;
+}
+
+.line{
+  height: 100px;
+  width: 1px;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.leftBlock{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.rightBlock{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  justify-content: space-between;
+}
+.exampleTitle, .exampleDescription{
+  transform: translate(0, -40px);
+}
+.square{
+  width:100px;
+  height: 30px;
+  background-color: #5EFFFF;
+  text-align: center;
+}
+.square p{
+  color: black;
+}
+.goToSite{
+  display: flex;
+  gap:30px;
+  align-items: center;
+}
+.goToSiteArrow{
+  height: fit-content;
+}
+.goToSite:hover .arrowLeft{
+  transform: translate(-30px, 0);
+  transition: all 0.3s;
+}
+.goToSite:hover .arrowRight{
+  transform: translate(30px, 0);
+  transition: all 0.3s;
+}
+.rectangle{
+  margin: 60px 0 30px 0;
+}
+
+footer{
+  width: 84%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 110px;
+}
+.CandBSection{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  align-items: flex-end;
+  border-left: 1px solid #5EFFFF;
+  padding-left: 20px;
+}
+
+.navBlock ul{
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+.navBlock ul li{
+  list-style-image: url('images/liMarker.png');
+  /* list-style-position:outside; */
+  padding: 15px;
+}
+.navBlock ul li:first-child{
+  list-style: none;
+}

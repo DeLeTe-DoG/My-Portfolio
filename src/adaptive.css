@@ -1,0 +1,124 @@
+@media (max-width: 1250px) {
+    .aboutBlocks{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: max-content;
+        row-gap: 50px;
+    }
+    .aboutBlock{
+        margin: 0 auto;
+        height: 190px;
+    }
+    .aboutWorkDescription{
+        display: block;
+      }
+    .exampleBlock{
+        display: flex;
+        flex-direction: column;
+        /* gap: 60px; */
+    }
+    .exampleTitle, .exampleDescription{
+        transform:none;
+    }
+    .exampleInfo{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+    }
+    .goToSiteArrow{
+        display: none;
+    }
+    h1{
+        font-size: 60px;
+    }
+}
+@media (max-width: 1100px) {
+    .CandBSection{
+        flex-direction: column;
+        border: none;
+        align-items: flex-start;
+        gap: 100px;
+    }
+    .CandBSection h1{
+        align-self:flex-end;
+    }
+    p{
+        font-size: 20px;
+    }
+    h3{font-size: 28px;}
+    .aboutMeSection{
+        gap:30px;
+    }
+    h1{font-size: 50px;}
+}
+@media (max-width: 750px) {
+    .myPhoto{display:none}
+    .aboutMeInfo{gap: 30px}
+    .widget{width: 30px;}
+}
+@media (max-width: 700px) {
+    header{margin-left: 20px;}
+    .aboutBlocks{
+        display: flex;
+        flex-direction: column;
+        /* height: max-content; */
+        gap: 50px;
+    }
+    .aboutBlock{
+        height:max-content;
+    }
+    .exampleImage{
+        margin: 0 auto;
+        width: 500px;
+        box-shadow: 10px 12px rgb(94, 255, 255, 0.2);
+    }
+    .exampleBlock{width: 500px; gap: 30px}
+    .exampleInfo{gap: 20px}
+    h1{font-size: 35px}
+    h3{font-size: 20px;}
+    p{font-size: 16px;}
+    button{width: 150px !important; height: 30px !important;}
+    .square{
+        width:70px;
+        height: 20px;
+      }
+}
+@media (max-width:550px) {
+    .rectangle{
+        margin: 30px 0 15px 0;
+        width: 20px;
+    }
+    .exampleInfo{gap: 10px}
+    .HeadInfoBlock{transform: translate(-12px, -10px);}
+    .exampleImage{
+        margin: 0 auto;
+        width: 350px;
+        box-shadow: 10px 12px rgb(94, 255, 255, 0.2);
+    }
+    .exampleBlock{width: 350px;}
+    .aboutMeInfo{width: 350px;}
+    .widgets{gap: 15px}
+    .widget{width: 20px;}
+    footer{
+        gap:60px;
+    }
+    .CandBSection{
+        gap:50px;
+        /* height: 100px; */
+    }
+}
+@media (max-width:430px) {
+    .exampleImage{
+        margin: 0 auto;
+        width: 300px;
+        box-shadow: 10px 12px rgb(94, 255, 255, 0.2);
+    }
+    .exampleBlock{width: 300px;}
+    h1{font-size: 25px}
+    h3{font-size: 16px !important;}
+    p{font-size: 12px !important;}
+    .aboutBlock{width: 200px;}
+    header, .aboutMeSection, .AboutMyWorkSection, .ExamplesSection{
+        margin-bottom: 150px;
+    }
+}
